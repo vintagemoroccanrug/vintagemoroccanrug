@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><title>Blog</title>
+    <link rel="canonical" href="blog.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="Blog" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+    
+    <style>
+        .bg-header {
+            background-color: rgba(15, 87, 251, 0.6) !important;
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff ;
+        }
+
+        .footer-text-color {
+            color: #ffffff;
+        }
+
+        .footer-text-color .navbar-brand {
+            color: #ffffff ;
+        }
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+        .top-area {
+            height: 30rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .header-transparent-layer {
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .header-transparent-layer .contents {
+            padding: 2rem;
+        }
+
+        @media (min-width: 801px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 45%;
+                border-radius: 30px;
+                padding: 0;
+                margin-left: 10%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 80%;
+                border-radius: 30px;
+                padding: 0;
+            }
+            .text-start {
+                text-align: center !important;
+            }
+        }
+        body {
+                    background-color: #4d598f;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(46, 53 ,84, 0.65) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #4d598f !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #4d598f !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #2e3554 !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+                .bg-dark, .navbar-brand {
+                    color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #9b9b9d;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #f1f6f9;
+                }
+
+                footer.py-5.bg-dark.text-center {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #2e3554 !important;
+                }
+
+                .btn-banner-theme {
+                    color: #2e3554;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #2e3554;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #2e3554;
+                    border-color: #2e3554;
+                }
+
+                .btn-theme:hover {
+                    color: #2e3554;
+                    background-color: #ffffff;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #000000;
+                }
+
+                .main-heading {
+                    color: undefined;
+                }
+
+                .card-text {
+                    color: #404040;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+                .article-card-text {
+                    color:  #212529;
+                  
+                }
+.article-card-text * {
+                    color: #212529 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+
+                }
+
+
+                .cards-container .card {
+                    background-color: #e8eaf4 !important;
+                    border: 2px solid #d1d1d4 !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #1d1e23;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000;
+                }
+                .article-info {
+                    color: #404040;
+                }
+
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                <span class="navbar-brand header-text-color">vintagemoroccanrug</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item {{home_active}}">
+                        <a class="nav-link header-text-color" href="index.html">Home</a>
+                    </li>
+                    <div class="nav-item {{service_active}} dropdown" style="display:">
+                        <button class="header-text-color dropbtn is-mobile">Pages</button>
+                        <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-content2">
+                                <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="order-custom-photo-rug.html">order custom photo rug
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-to-care-for-a-wool-rug.html">how to care for a wool rug
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="moroccan-rug-workshop.html">Moroccan rug workshop
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="handmade-berber-rugs.html">handmade Berber rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="custom-moroccan-rugs.html">custom Moroccan rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="moroccan-rug-decor-ideas.html">Moroccan rug decor ideas
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="vintage-moroccan-rugs.html">vintage Moroccan rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="authentic-beni-ourain-rugs.html">authentic Beni Ourain rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="moroccan-wool-rugs.html">Moroccan wool rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="tribal-rug-art.html">tribal rug art
+                                                                                        <span class="border-menu"></span></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item {{contact_active}}" style="display: ">
+                        <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.instagram.com/kechart_brand/#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.pinterest.com/kechartdotcom/">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.youtube.com/@kechart2001">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg overflow-hidden custom-position">
+        <div class="header-transparent-layer p-5">
+            <h1 class="display-5 text-capitalize fw-bold header-text-color"><span>Latest Blog Posts</span></h1>
+        </div>
+    </nav>
+</div>
+
+<div class="container px-4 px-lg-5 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 mx-4">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h2 class="main-heading fs-3">vintagemoroccanrug: Latest Blog Posts</h2>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-to-look-for-when-choosing-a-vintage-moroccan-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What to look for when choosing a vintage Moroccan rug</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Selecting the appropriate size for a vintage Moroccan rug involves careful consideration of your space's dimensions and layout. A rug that is too small can make a room feel disjointed, while an overly large rug may overwhelm the area. It's essential ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-to-look-for-when-choosing-a-vintage-moroccan-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-identify-the-craftsmanship-in-vintage-moroccan-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to identify the craftsmanship in vintage Moroccan rugs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Vintage Moroccan rugs are renowned for their striking patterns and motifs, each imbued with cultural significance and storytelling elements. Geometric shapes and organic forms are prevalent, often reflecting the landscape and heritage of the region. ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-identify-the-craftsmanship-in-vintage-moroccan-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-vintage-moroccan-rugs-are-perfect-for-bohemian-decor.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why vintage Moroccan rugs are perfect for bohemian decor?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Finding genuine vintage Moroccan rugs requires careful consideration and knowledge about the market. Many online retailers and local shops claim to offer authentic pieces, but the quality and provenance can vary significantly. It's important to seek ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-vintage-moroccan-rugs-are-perfect-for-bohemian-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-best-places-to-buy-authentic-vintage-moroccan-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the best places to buy authentic vintage Moroccan rugs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Vintage Moroccan rugs embody a variety of styles, each with unique characteristics that reflect the rich cultural heritage of Morocco. The Beni Ourain style, known for its thick, plush wool and monochromatic designs, often features geometric patterns......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-places-to-buy-authentic-vintage-moroccan-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-history-behind-tribal-rug-art.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the history behind tribal rug art?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Throughout history, various trade routes have served as vital conduits for cultural exchange, significantly influencing the development of tribal rug art. These pathways connected diverse communities, allowing artisans to share techniques, patterns, ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-history-behind-tribal-rug-art.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-spot-authentic-tribal-rug-craftsmanship.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to spot authentic tribal rug craftsmanship</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The edges and fringes of a tribal rug are essential indicators of its craftsmanship. Carefully examining the finishing methods used on these elements provides insights into the rug's quality. Authentic tribal rugs often feature hand-stitched edges ra......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-spot-authentic-tribal-rug-craftsmanship.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-best-tribal-rug-retailers-online.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the best tribal rug retailers online</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Tribal rugs are celebrated for their rich variety of styles and designs, each reflecting unique cultural influences and traditions. These rugs often showcase intricate geometric patterns, bold color palettes, and motifs inspired by nature, which add ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-tribal-rug-retailers-online.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="roundup-of-the-most-popular-tribal-rug-styles.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Roundup of the most popular tribal rug styles</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Central Asian tribal rugs showcase a vibrant tapestry of culture and history, reflecting the unique aesthetic sensibilities of the various tribes that inhabit the region. These rugs are often characterized by bold colors, geometric patterns, and intr......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="roundup-of-the-most-popular-tribal-rug-styles.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-are-the-cons-of-berber-carpet.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What are the cons of Berber carpet?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber carpets tend to trap dust, allergens, and other particles within their textured fibers. This characteristic can lead to a buildup of irritants over time, which may pose challenges for individuals with allergies or respiratory conditions. Frequ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-are-the-cons-of-berber-carpet.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-berber-carpet-called-now.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is Berber carpet called now?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Regular maintenance is essential for preserving the appearance and longevity of Berber carpets. Begin with frequent vacuuming to remove dirt and debris that may become trapped in the fibers. Using a vacuum cleaner with a rotating brush may not be ide......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-berber-carpet-called-now.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-are-berber-rugs-so-expensive.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why are berber rugs so expensive?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The quality of materials used in berber rugs significantly influences their pricing. Traditional berber rugs are crafted from high-quality wool, known for its resilience and natural insulation properties. The use of premium fibers ensures that each p......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-are-berber-rugs-so-expensive.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-difference-between-berber-and-kilim.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the difference between Berber and kilim?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim rugs are crafted through a unique flat-weaving technique known as tapestry weaving. This method employs interlocking warps and wefts to create a dense and durable fabric. The process does not involve any pile, which differentiates kilims from o......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-difference-between-berber-and-kilim.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="round-up-of-the-best-styles-of-custom-moroccan-rugs-for-every-room.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round up of the best styles of custom Moroccan rugs for every room</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Leather poufs serve as delightful accents within a space, adding both texture and comfort. These versatile pieces can effortlessly blend with various design styles, from rustic to contemporary, making them a suitable choice for any room. A pouf not o......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-the-best-styles-of-custom-moroccan-rugs-for-every-room.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-incorporate-custom-moroccan-rugs-into-modern-home-decor.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to incorporate custom Moroccan rugs into modern home decor</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Every beautiful Moroccan rug deserves the proper care to ensure its longevity. Regular vacuuming is essential to remove dust and debris, but it's crucial to avoid using a beater bar which can damage the delicate fibers. When spills occur, immediate a......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-incorporate-custom-moroccan-rugs-into-modern-home-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-are-the-benefits-of-handwoven-moroccan-rugs-compared-to-machine-made.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What are the benefits of handwoven Moroccan rugs compared to machine-made?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Handwoven Moroccan rugs are often crafted using natural materials such as wool, cotton, and dyes derived from plants. This reliance on organic inputs minimizes the harmful impact associated with synthetic fabrics and chemical treatments commonly foun......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-are-the-benefits-of-handwoven-moroccan-rugs-compared-to-machine-made.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-top-places-to-purchase-custom-moroccan-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the top places to purchase custom Moroccan rugs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The cost of custom Moroccan rugs can vary significantly based on several factors such as size, material, and complexity of design. Smaller rugs may start from a few hundred dollars, while larger, more intricate pieces can reach several thousand. Arti......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-top-places-to-purchase-custom-moroccan-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-incorporate-moroccan-rugs-into-your-interior-design.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Incorporate Moroccan Rugs into Your Interior Design</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Integrating Moroccan rugs into an interior design scheme offers a unique opportunity to blend various textures and fabrics. The intricate weaves and vibrant patterns of these rugs can serve as a stunning foundation for a room's aesthetic. Pairing a p......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-incorporate-moroccan-rugs-into-your-interior-design.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-do-the-symbols-on-moroccan-rugs-mean.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What do the symbols on Moroccan rugs mean?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">In Morocco, the origin of a rug often reflects the identity of the tribe that created it. Each tribal group has its unique set of symbols and color schemes, making every rug a distinctive representation of its cultural heritage. These patterns can si......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-do-the-symbols-on-moroccan-rugs-mean.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-moroccan-rugs-still-in-style.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are Moroccan rugs still in style?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">In recent years, the demand for sustainable and ethically sourced materials has drastically shifted the focus toward artisanal products like Moroccan rugs. These rugs often feature natural fibers, such as wool and cotton, which are biodegradable and ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-moroccan-rugs-still-in-style.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-you-match-a-rug-to-decor.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do you match a rug to decor?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When selecting a rug to complement your existing furniture, consider the colors and patterns already present in the room. A rug can serve as a unifying element that ties together various pieces. If your furniture exhibits bold colors or intricate pat......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-do-you-match-a-rug-to-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-are-moroccan-rugs-so-expensive.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why are Moroccan rugs so expensive?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Moroccan rugs showcase a remarkable diversity in their designs and styles, with each region contributing its unique aesthetic. These rugs often reflect the culture, environment, and traditions of the Berber tribes that create them. For instance, the ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-are-moroccan-rugs-so-expensive.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-moroccan-wool-rugs-shed.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do Moroccan wool rugs shed?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When considering the purchase of Moroccan wool rugs, it's essential to pay close attention to craftsmanship and design. These rugs often feature intricate patterns and vibrant colors that reflect the rich cultural heritage of Morocco. Handmade option......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-moroccan-wool-rugs-shed.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-difference-between-a-persian-rug-and-a-moroccan-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the difference between a Persian rug and a Moroccan rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Moroccan rugs are known for their diverse weaving techniques, which are often rooted in the culture and traditions of the Berber tribes. These artisans employ hand-knotting methods, creating intricate patterns that reflect their history and stories. ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-difference-between-a-persian-rug-and-a-moroccan-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-to-bring-to-a-moroccan-rug-workshop-a-comprehensive-guide.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What to Bring to a Moroccan Rug Workshop: A Comprehensive Guide</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Embrace hands-on practice as a primary method for absorbing new techniques during the rug-making workshop. Engaging with the materials firsthand allows for immediate feedback, making it easier to understand intricate patterns and processes. Focus on ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-to-bring-to-a-moroccan-rug-workshop-a-comprehensive-guide.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-moroccan-rugs-good-quality.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are Moroccan rugs good quality?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Caring for Moroccan rugs requires attention and regular maintenance to ensure their longevity. Vacuuming should be done once a week to remove dust and debris while avoiding the use of a beater bar, which can damage the fibers. Spot cleaning with a da......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-moroccan-rugs-good-quality.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="a-round-up-of-unique-moroccan-rug-styles-and-designs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">A Round-Up of Unique Moroccan Rug Styles and Designs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Deeply rooted in Moroccan tradition, Boujad rugs showcase a rich tapestry of colors and patterns that reflect the cultural heritage of the Boujad region. Craftsmen often incorporate a blend of red, blue, and yellow hues, creating vibrant pieces that ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="a-round-up-of-unique-moroccan-rug-styles-and-designs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="review-of-the-best-moroccan-rug-workshops-in-your-area.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Moroccan Rug Workshops in Your Area</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Nestled in a vibrant part of the city, Casbah Creations stands out with its unique blend of traditional techniques and contemporary aesthetics. The workshop prides itself on innovative designs that appeal to both local and international customers. Ea......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-moroccan-rug-workshops-in-your-area.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-much-should-a-moroccan-rug-cost.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How much should a Moroccan rug cost?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The Moroccan rug market has seen significant fluctuations in pricing over the past few years, largely influenced by global demand and supply dynamics. As international awareness of Moroccan textiles grows, interest has surged among consumers looking ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-much-should-a-moroccan-rug-cost.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-difference-between-beni-ourain-and-boujad-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the difference between Beni Ourain and Boujad rugs?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Boujad rugs are typically handcrafted using wool sourced from sheep indigenous to the region. This natural material offers durability and resilience, making it an ideal choice for textiles meant to endure daily use. Artisans often favor high-quality ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-difference-between-beni-ourain-and-boujad-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="where-are-beni-rugs-made.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Where are Beni rugs made?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The landscape of Beni rug production has evolved significantly in recent years. Artisans are increasingly incorporating innovative techniques and materials, which allow for a fusion of traditional craftsmanship with contemporary aesthetics. This shif......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="where-are-beni-rugs-made.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-tell-if-a-moroccan-rug-is-real.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to tell if a Moroccan rug is real?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Colors often hold significant meaning in Moroccan rug design. Each hue can convey symbolism or reflect the culture and traditions of the weaver's region. Authentic Moroccan rugs predominantly feature vibrant shades derived from natural sources. These......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-tell-if-a-moroccan-rug-is-real.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-quality-of-beni-ourain-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the quality of Beni Ourain rugs?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Beni Ourain rugs carry a rich cultural significance rooted in the Berber traditions of Morocco. These rugs are traditionally handwoven by the Berber women of the Atlas Mountains, serving not only as functional items but also as symbols of family heri......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-quality-of-beni-ourain-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-you-supposed-to-vacuum-a-wool-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are you supposed to vacuum a wool rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Many individuals overlook the importance of selecting the right vacuum attachment for wool rugs. Standard vacuum heads can be too harsh, risking the fibers' integrity. It is advisable to use a suction-only setting or a vacuum designed for delicate ru......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-you-supposed-to-vacuum-a-wool-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-you-protect-wool-rugs.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do you protect wool rugs?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Wool rugs are an investment that require mindful attention, especially in high-traffic areas. Efficient management of foot traffic can significantly extend the life of your rug. Consider placing the rug in a space where foot activity is limited. If p......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-do-you-protect-wool-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-you-maintain-a-wool-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do you maintain a wool rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When you bring home a new wool rug, it's common to notice some shedding in the beginning. This is a normal characteristic of wool fibers, especially in rugs that are handmade or woven from high-quality wool. The initial shedding occurs as loose fiber......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-do-you-maintain-a-wool-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-wool-rugs-high-maintenance.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Elizabeth Sophie</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are wool rugs high maintenance?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Wool rugs can be significantly impacted by their surrounding environment, particularly through factors such as humidity and temperature. Excessive moisture or dry air can lead to changes in the fibers, possibly causing shrinkage or warping. Maintaini......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-wool-rugs-high-maintenance.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color">
+
+    <div class="container text-white">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="color: inherit;text-decoration: auto;" href="index.html">vintagemoroccanrug</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">534 Lotissment mhamid 7,marrakech,marrakech,MA,40160</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color ">0615919877</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">raynerelizabethsophie@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class="text-white footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#"><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class=" footer-text-color text-white  mr-3" target="_blank" href="https://www.instagram.com/kechart_brand/#"><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href="https://www.pinterest.com/kechartdotcom/"><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href="https://www.youtube.com/@kechart2001"><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; vintagemoroccanrug. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+            <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+        </div>
+        
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+
+</html>
